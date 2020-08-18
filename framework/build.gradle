@@ -120,6 +120,10 @@ task sourcesJar(type: Jar) {
     classifier = 'sources'
 }
 
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+}
+
 artifacts {
     archives sourcesJar
 }
